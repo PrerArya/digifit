@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <style type=text/css>   
+        body   
+        {  
+        height: 125vh;  
+        margin-top: 5px;  
+        padding: 0px;  
+        background-size: cover;  
+        font-family: sans-serif;  
+        }  
+        header {  
+        background-color: lightcoral;  
+        position: fixed;  
+        left: 0;  
+        right: 0;  
+        top: 0px;  
+        height: 30px;  
+        display: flex;  
+        align-items: center;  
+        box-shadow: 0 0 25px 0 black;  
+        }  
+        header * {  
+        display: inline;  
+        }  
+        header li {  
+        margin: 20px;  
+        }  
+        header li a {  
+        color: blue;  
+        text-decoration: none;  
+        }  
+        
+
+        body {
+            background-color: violet;
+            font-family: cursive;
+            }
+
+        .glow {
+            font-family:'Dancing Script', cursive;
+            font-size: 130px;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            animation: glow 1s ease-in-out infinite alternate;
+     }
+
+        @-webkit-keyframes glow {
+            from {
+                text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255), 0 0 30px #5100e6, 0 0 40px #2300e6, 0 0 50px #0400e6, 0 0 60px #5c00e6, 0 0 70px #3600e6;
+            }
+            
+            to {
+                text-shadow: 0 0 20px rgb(255, 255, 255), 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+            }
+         }
+       
+        img:hover {
+        /* Start the shake animation and make the animation last for 0.5 seconds */
+        animation: shake 0.5s;
+        
+        /* When the animation is finished, start again */
+        animation-iteration-count: infinite;
+        }
+        
+        @keyframes shake {
+        0% { transform: translate(1px, 1px) rotate(0deg); }
+        10% { transform: translate(-1px, -2px) rotate(-1deg); }
+        20% { transform: translate(-3px, 0px) rotate(1deg); }
+        30% { transform: translate(3px, 2px) rotate(0deg); }
+        40% { transform: translate(1px, -1px) rotate(1deg); }
+        50% { transform: translate(-1px, 2px) rotate(-1deg); }
+        60% { transform: translate(-3px, 1px) rotate(0deg); }
+        70% { transform: translate(3px, 1px) rotate(-1deg); }
+        80% { transform: translate(-1px, -1px) rotate(1deg); }
+        90% { transform: translate(1px, 2px) rotate(0deg); }
+        100% { transform: translate(1px, -2px) rotate(-1deg); }
+        }
+
+        .container{
+            display: flex;
+        }
+          
+    </style>
+</head>
+<body >
+    <head>
+    <center>
+   <h1 class="glow">Digifit</h1>
+    </center>
+    <h4 style ="text-align: right;padding-right:20px;font-size:25px"> ------ Always More Than Your Bestfriend</h4>
+    </head>
+    <center>
+    <h1><u>STYLE YOUR WAY WITH OUTSTANDING RECCOMENDATIONS</u></h1>
+    <p >
+        The application is to create a smart digital wardrobe/closet for an individual. In daily life, the choices and decision of clothes are time-consuming and difficult. 
+        The idea behind the digital wardrobe revolves around solving this particular problem of making decisions about clothes in any particular situation. You are going for a trip, 
+        hike, sports, beach the app will suggest you clothes that you already own in your wardrobe based on the location of event and weather. Even daily activities in your city, 
+        like going to the office, parties, dates, dinner, running or any other sports. The app will suggest you the clothes in your wardrobe based on the latest trend in fashion 
+        and your personal preferences. 
+    </p>
+    
+    </center>
+    <p style="border-style:dotted;border-color:black;">
+        <div class=" container ">
+            <img src="{{home}}">
+            <p>
+                <h2 style="font-size:30px;padding-left:10px;padding-right:5px;padding-top:8%">FED-UP OF PLANNING WHAT TO WEAR FOR EVERY NOW AND THEN ????</h2>
+            </p>
+
+        </div>
+
+    </p>
+
+    <center>
+        <div class="image" style="padding-right:10px">
+            <a href ="login"><img style=" width: 700px; padding-top:3%; height:60px;
+                border: 50px white" src="{{button}}" height="200" width="300"></a>
+        </div>
+        
+
+    </center>
+
+
+    <p>
+        <center>
+            <h3 style="font-family:'Dancing Script',cursive;font-size:40px";>If you have any suggestion 
+                feel free to fill the suggestion form below</h3>
+
+
+        </center>
+    </p>
+    
+        
+    
+    
+</body>
+</html>
